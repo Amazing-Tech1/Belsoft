@@ -45,8 +45,8 @@ function Hero() {
                 </div>
 
                 {/* Right Section */}
-                <div className=' relative basis-[47%] animate-fade-in'>
-                    <img src={frame1} alt="" className="absolute z-[-1] w-[23vw] left-0 top-[-1rem]" />
+                <div className=' relative basis-[45%] animate-fade-in'>
+                    <img src={frame1} alt="" className="absolute z-[-1] w-[23vw] left-0 top-[-1vw]" />
                     <img src={frame2} alt="" className=" w-[24vw] ml-[15vw] mt-[6vw] z-2 " />
                     <img src={frame3} alt="" className=" w-[14vw] mt-[-7vw]" />
                     <img src={frame4} alt="" className="ml-[17vw] mt-[-4.5vw] w-[7vw]" />
