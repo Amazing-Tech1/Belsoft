@@ -16,7 +16,7 @@ function Header() {
                         <li onClick={(e) => setActiveMenu("gallery")} className={`${activeMenu === 'gallery' ? 'text-purple-500' : ''}`}> <a href='#gallery'>Gallery</a></li>
                         <li onClick={(e) => setActiveMenu("contact")} className={`${activeMenu === 'contact' ? 'text-purple-500' : ''}`}> <a href='#contact'>Contact Us</a></li>
                     </ul>
-                    <div className='border-2 border-purple-500 text-sm sm:text-[1.4vw] font-semibold px-[1.4vw] py-[0.6vw]  flex items-center text-purple-500 gap-[0.7vw] rounded-2xl cursor-pointer hover:shadow-md hover:scale-[1.1]'>
+                    <div className='border-2 border-purple-500 text-[1.4vw] font-semibold px-[1.4vw] py-[0.6vw]  flex items-center text-purple-500 gap-[0.7vw] rounded-2xl cursor-pointer hover:shadow-md hover:scale-[1.1]'>
                         <p>Register </p>
                         <img src={arrow} alt="" className='sm:w-[1.4vw] w-3' />
                     </div>
