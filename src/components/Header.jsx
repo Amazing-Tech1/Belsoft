@@ -15,7 +15,7 @@ function Header() {
                         <li>Gallery</li>
                         <li>Contact Us</li>
                     </ul>
-                    <div className='border-2 border-purple-500 text-[1.4vw] font-semibold px-[1.2vw] py-[0.8vw]  flex items-center text-purple-500 gap-2 rounded-2xl cursor-pointer hover:shadow-md hover:scale-[1.1]'>
+                    <div className='border-2 border-purple-500 text-[1.4vw] font-semibold px-[1.4vw] py-[0.6vw]  flex items-center text-purple-500 gap-[0.7vw] rounded-2xl cursor-pointer hover:shadow-md hover:scale-[1.1]'>
                         <p>Register </p>
                         <img src={arrow} alt="" className='w-[1.4vw]' />
                     </div>
