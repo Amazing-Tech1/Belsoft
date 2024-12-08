@@ -1,4 +1,5 @@
 import React from 'react'
+import bg from '../assets/Vector1.png'
 import frame1 from '../assets/Frame-16-1.png'
 import frame2 from '../assets/Frame-17-1.png'
 import frame3 from '../assets/Frame-20.png'
@@ -14,7 +15,7 @@ import BAUR from '../assets/BoxArrowUpRight.svg'
 function Hero() {
     return (
         <div className='w-full relative '>
-            <img src="/vector1.png" alt="background graphics" className='absolute top-[-8vw] right-[9vw] z-[-1] w-[50vw]' />
+            <img src={bg} alt="background graphics" className='absolute top-[-8vw] right-[9vw] z-[-1] w-[50vw]' />
             <div className="w-[90%] px-4 flex md:flex-row  m-auto mt-[7vw]">
                 {/* Left Section */}
                 <div className=' animate-slide-in basis-[55%] mt-1 font-Montserrat'>
@@ -44,8 +45,8 @@ function Hero() {
                 </div>
 
                 {/* Right Section */}
-                <div className=' relative basis-[45%] animate-fade-in'>
-                    <img src={frame1} alt="" className="absolute z-[-1] w-[23vw] left-0 " />
+                <div className=' relative basis-[47%] animate-fade-in'>
+                    <img src={frame1} alt="" className="absolute z-[-1] w-[23vw] left-0 top-[-1rem]" />
                     <img src={frame2} alt="" className=" w-[24vw] ml-[15vw] mt-[6vw] z-2 " />
                     <img src={frame3} alt="" className=" w-[14vw] mt-[-7vw]" />
                     <img src={frame4} alt="" className="ml-[17vw] mt-[-4.5vw] w-[7vw]" />
