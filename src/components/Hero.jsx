@@ -21,7 +21,7 @@ function Hero() {
                 <div className=' animate-slide-in basis-[54%] mt-1 font-Montserrat'>
                     <span className='font-bold text-[1vw] leading-tight'>Join our premier monthly meetup for startup founders and tech visionaries</span>
                     <h2 className='text-[2.6vw] text-purple-700 font-bold '>Connect, Collaborate, Innovate!</h2>
-                    <p className='mt-6 text-[1.22vw] font-medium lg:w-[90%] leading-normal'>Every last Friday of the month, we bring together the brightest minds in our local tech ecosystem. Whether you're a seasoned entrepreneur or just starting your journey. Founder's Friday is your launchpad for new ideas, valuable connections, and game-changing opportunities</p>
+                    <p className='mt-6 text-[1.24vw] font-medium w-[90%] leading-normal'>Every last Friday of the month, we bring together the brightest minds in our local tech ecosystem. Whether you're a seasoned entrepreneur or just starting your journey. Founder's Friday is your launchpad for new ideas, valuable connections, and game-changing opportunities</p>
                     <div className='mt-[4vw]'>
                         <button className="text-purple-500 p-[1.2vw] rounded-[50px] border border-purple-500 flex items-center gap-2 text-[1.8vw]  hover:bg-purple-500 hover:text-white">
                             Register for our next event <img src={right_arrow} alt="" className='w-[1.8vw]' />
