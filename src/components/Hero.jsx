@@ -18,7 +18,7 @@ function Hero() {
             <img src={bg} alt="background graphics" className='absolute top-[-8vw] right-[9vw] z-[-1] w-[50vw]' />
             <div className="w-[90%] flex md:flex-row  m-auto mt-[7vw]">
                 {/* Left Section */}
-                <div className=' animate-slide-in basis-[54%] mt-1 font-Montserrat'>
+                <div className=' animate-slide-in basis-[54%] font-Montserrat'>
                     <span className='font-bold text-[1vw] leading-tight'>Join our premier monthly meetup for startup founders and tech visionaries</span>
                     <h2 className='text-[2.6vw] text-purple-700 font-bold '>Connect, Collaborate, Innovate!</h2>
                     <p className='mt-6 text-[1.24vw] font-medium w-[90%] leading-normal'>Every last Friday of the month, we bring together the brightest minds in our local tech ecosystem. Whether you're a seasoned entrepreneur or just starting your journey. Founder's Friday is your launchpad for new ideas, valuable connections, and game-changing opportunities</p>
@@ -46,7 +46,7 @@ function Hero() {
 
                 {/* Right Section */}
                 <div className=' relative basis-[46%] animate-fade-in'>
-                    <img src={frame1} alt="" className="absolute z-[-1] w-[23vw] left-0 top-[-1vw]" />
+                    <img src={frame1} alt="" className="absolute z-[-1] w-[23vw] left-0 top-[-0.5vw]" />
                     <img src={frame2} alt="" className=" w-[24vw] ml-[15vw] mt-[6vw] z-2 " />
                     <img src={frame3} alt="" className=" w-[14vw] mt-[-7vw]" />
                     <img src={frame4} alt="" className="ml-[17vw] mt-[-4.5vw] w-[7vw]" />
