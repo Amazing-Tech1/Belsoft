@@ -16,11 +16,11 @@ function Hero() {
     return (
         <div className='w-full relative '>
             <img src={bg} alt="background graphics" className='absolute top-[-8vw] right-[9vw] z-[-1] w-[50vw]' />
-            <div className="w-[90%] px-4 flex md:flex-row  m-auto mt-[7vw]">
+            <div className="w-[90%] flex md:flex-row  m-auto mt-[7vw]">
                 {/* Left Section */}
-                <div className=' animate-slide-in basis-[55%] mt-1 font-Montserrat'>
-                    <span className='font-bold text-[1.02vw] leading-tight'>Join our premier monthly meetup for startup founders and tech visionaries</span>
-                    <h2 className='text-[2.8vw] text-purple-700 font-bold '>Connect, Collaborate, Innovate!</h2>
+                <div className=' animate-slide-in basis-[54%] mt-1 font-Montserrat'>
+                    <span className='font-bold text-[1vw] leading-tight'>Join our premier monthly meetup for startup founders and tech visionaries</span>
+                    <h2 className='text-[2.6vw] text-purple-700 font-bold '>Connect, Collaborate, Innovate!</h2>
                     <p className='mt-6 text-[1.22vw] font-medium lg:w-[90%] leading-normal'>Every last Friday of the month, we bring together the brightest minds in our local tech ecosystem. Whether you're a seasoned entrepreneur or just starting your journey. Founder's Friday is your launchpad for new ideas, valuable connections, and game-changing opportunities</p>
                     <div className='mt-[4vw]'>
                         <button className="text-purple-500 p-[1.2vw] rounded-[50px] border border-purple-500 flex items-center gap-2 text-[1.8vw]  hover:bg-purple-500 hover:text-white">
@@ -45,7 +45,7 @@ function Hero() {
                 </div>
 
                 {/* Right Section */}
-                <div className=' relative basis-[45%] animate-fade-in'>
+                <div className=' relative basis-[46%] animate-fade-in'>
                     <img src={frame1} alt="" className="absolute z-[-1] w-[23vw] left-0 top-[-1vw]" />
                     <img src={frame2} alt="" className=" w-[24vw] ml-[15vw] mt-[6vw] z-2 " />
                     <img src={frame3} alt="" className=" w-[14vw] mt-[-7vw]" />
